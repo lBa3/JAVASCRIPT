@@ -1,0 +1,10 @@
+NOTAS- curso JavaScript
+
+- mostrar en consola del navegador
+console.log ('valor);
+- modo stricto en lenguaje
+'use strict'
+- saber el tipo de dato de una variable
+typeof var
+- para debugear 
+debugger;

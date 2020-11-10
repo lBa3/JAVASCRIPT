@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>formulario</title>
+<script type="text/javascript" src="formulario.js"></script>
+<style type="text/css">
+	.box {
+		width: 180px;
+		height: 180px;
+		display: inline-block;
+	}
+	.left{
+		border: 1px solid red;
+		float: left: 0;
+	}
+	.right{
+		border: 1px solid blue;
+		padding: 5px;
+	}
+</style>
+</head>
+<body>
+	<h1>Ejerciocio DOM, eventos y funciones</h1>
+<div class="box left">	
+	<form id="form" action="#" method="POST" onsubmit="return false;">
+		<p><span>Nombre: </span><input type="text"  id="nombre" ></p>
+		<p><span>Apellido: </span><input type="text" id="apellido" ></p>
+		<p><span>Edad: </span><input type="number" id="edad" ></p>
+		<p><input type="submit" id="enviar"   value="enviar"></p>
+	</form>
+</div>
+<hr/>
+
+<div class="box right">	
+	<h2>informacion del usuario</h2>
+	<hr/>
+
+</div>
+
+
+</body>
+
